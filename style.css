@@ -3,15 +3,23 @@
   padding: 0;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .navbar {
-  height: 70px;
-  background-color: rgb(230, 226, 226);
+  height: 90px;
+  width: 700px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 0px 20px;
+}
+.navbar input {
+  width: 200px;
+  height: 20px;
+  margin: 0px 5px 0px 15px;
+}
+.navbar button {
+  height: 22px;
+  margin-right: 10px;
 }
 .navbar img {
   width: 50px;
@@ -22,8 +30,11 @@ body {
 }
 .navbar ul li a {
   text-decoration: none;
+  color: grey;
 }
-
+.navbar ul li a:hover {
+  box-shadow: 0px 10px 20px grey;
+}
 h1 {
   font-size: 50px;
 }
@@ -69,7 +80,7 @@ span {
 }
 .my-recipies {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .recipies {
   width: 25%;
@@ -85,9 +96,19 @@ span {
 .recipie-detail {
   margin-left: 10px;
 }
+.customer-sec{
+  margin-left: 8px;
+  width 30%;
+}
+.last-section{
+  width: 90%;
+  margin: auto;
+  box-shadow: 0px 15px 25px #d7d4d4;
+}
 footer {
-  color: white;
+  color: #f7f1f1;
   background-color: black;
   text-align: center;
   padding: 15px 0px 40px;
+  margin-top: 30px;
 }
